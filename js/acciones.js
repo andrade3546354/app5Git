@@ -1,7 +1,8 @@
 // JavaScript Document
+
 $(document).ready(function(e) {
     document.addEventListener("deviceready", function(){
-		$('#sonar'.tap(function() {
+		$('#beep').tap(function() {
 			navigator.notification.beep(2);
 		});//cierre del beep
 		$('#vibrar').tap(function(){
